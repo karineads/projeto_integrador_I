@@ -2,12 +2,15 @@
 
 
 #Tema Escolhido:
+
 Modelo Inteligente de Classificação e Mitigação de Interações de Risco em Perfis Infantis em Redes Sociais
 
 #Ideia inicial: 
+
 Detectar padrões de interação potencialmente arriscados envolvendo perfis infantis e gerar mecanismos de proteção preventiva
 
 #Problema Real
+
 Plataformas como:
 -Instagram
 -TikTok
