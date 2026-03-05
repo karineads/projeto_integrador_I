@@ -1,7 +1,7 @@
 # **Projeto Integrador I**
 
 
-#Tema Escolhido:
+## Tema Escolhido:
 
 Modelo Inteligente de Classificação e Mitigação de Interações de Risco em Perfis Infantis em Redes Sociais
 
@@ -9,7 +9,7 @@ Modelo Inteligente de Classificação e Mitigação de Interações de Risco em 
 
 Detectar padrões de interação potencialmente arriscados envolvendo perfis infantis e gerar mecanismos de proteção preventiva
 
-#Problema Real
+### Problema Real
 
 Plataformas como:
 -Instagram
@@ -24,7 +24,7 @@ Eles medem:
 -Compartilhamentos
 Mas esses sistemas não foram projetados prioritariamente para analisar risco contextual entre adulto e menor, isso acaba criando um risco para perfis infantis
 
-**Riscos:**
+### **Riscos:**
 -Alta exposição pública
 -Seguidores desconhecidos
 -Comentários recorrentes de adultos
