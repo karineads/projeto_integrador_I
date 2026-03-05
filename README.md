@@ -5,7 +5,7 @@
 
 Modelo Inteligente de Classificação e Mitigação de Interações de Risco em Perfis Infantis em Redes Sociais
 
-#Ideia inicial: 
+## Ideia inicial: 
 
 Detectar padrões de interação potencialmente arriscados envolvendo perfis infantis e gerar mecanismos de proteção preventiva
 
@@ -16,6 +16,7 @@ Plataformas como:
 -TikTok
 -YouTube
 que usam algoritmos focados em engajamento.
+
 Eles medem:
 -Curtidas
 -Comentários
