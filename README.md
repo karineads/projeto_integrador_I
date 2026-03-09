@@ -3,7 +3,7 @@
 
 ## Tema Escolhido:
 
-Análise e Visualização de Dados sobre Violência Contra Mulheres no Brasil e Desenvolvimento de Aplicação de Apoio a Redes de Proteçãos
+Análise e Visualização de Dados sobre Violência Contra Mulheres no Brasil e Desenvolvimento de Aplicação de Apoio a Redes de Proteção
 
 ### Descrição Inicial do Projeto
 
