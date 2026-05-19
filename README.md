@@ -117,10 +117,11 @@ Discussão sobre os limites entre denúncia, acolhimento, investigação e prote
 
 ## Bases de dados utilizadas
 
-### Base principal — homicídios de mulheres
+### Base principal
 
 * [Kaggle — Feminicídio no Brasil](https://www.kaggle.com/datasets/rafatrindade/feminicidio-br)
-
+  
+  Base consolidada com os registros finais e validados de óbitos femininos por causas externas, com potencial enquadramento como feminicídio
 
 ### Feminicídios registrados
 
