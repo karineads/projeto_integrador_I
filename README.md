@@ -115,51 +115,70 @@ Análise da circulação de discursos misóginos em plataformas digitais, machos
 Discussão sobre os limites entre denúncia, acolhimento, investigação e proteção efetiva das vítimas.
 
 
-## Fontes utilizadas
+## Bases de dados utilizadas
+
+### Base principal — homicídios de mulheres
+
+* [Kaggle — Feminicídio no Brasil](https://www.kaggle.com/datasets/rafatrindade/feminicidio-br)
+
+
+### Feminicídios registrados
+
+* [Fórum Brasileiro de Segurança Pública (FBSP)](https://dossies.agenciapatriciagalvao.org.br/dados-e-fontes/pesquisa/retrato-dos-feminicidios-no-brasil-fbsp-2026/)
+
+
+### Violência doméstica e denúncias
+
+* [DataSenado — Pesquisa Nacional de Violência contra a Mulher](https://www12.senado.leg.br/institucional/datasenado/materias/pesquisas/pesquisa-nacional-de-violencia-contra-a-mulher-datasenado-2025)
+  
+* [Ligue 180 — Ministério das Mulheres](https://www.gov.br/mulheres/pt-br/ligue180/balancos)
+
+* [RASEAM 2025 — Relatório Anual Socioeconômico da Mulher](https://www.gov.br/mulheres/pt-br/central-de-conteudos/publicacoes/raseam-2025.pdf)
+
 
 ### Segurança pública e violência
 
-* Fórum Brasileiro de Segurança Pública (FBSP)
-* Atlas da Violência — Ipea
-* DataSUS / SIM / TabNet
-* DataSenado
-* Ministério das Mulheres
-* SINAN
+* [Atlas da Violência — Ipea](https://www.ipea.gov.br/atlasviolencia/publicacoes/276/atlas-2023-violencia-contra-mulher)
+
+* [DataSUS / SIM / TabNet](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
+
+* [SINAN](https://datasus.saude.gov.br/sistema-de-informacao-de-agravos-de-notificacao-sinan/)
+
 
 ### Conservadorismo e contexto social
 
-* Ipsos/Ipec
-* AtlasIntel
-* Opera Mundi
-* Unicamp
-* IESP/UERJ
+* [Ipsos/Ipec — Índice de Conservadorismo Brasileiro](https://www.ipsos.com/pt-br/indice-de-conservadorismo-brasileiro-2025)
+
+* [AtlasIntel / Opera Mundi](https://operamundi.uol.com.br/brasil/conservadorismo-cresce-entre-jovens-52-da-geracao-z-e-de-direita-aponta-pesquisa/)
+
+* [Unicamp — Conservadorismo e violência contra mulheres](https://www2.unicamp.br/unicamp/noticias/2023/03/08/aumento-da-violencia-contra-mulheres-tem-relacao-com-avanco-do-conservadorismo/)
+
 
 ### Misoginia digital
 
-* NetLab-UFRJ
-* Ministério das Mulheres
-* MINA-BR
-* CNJ
+* [NetLab-UFRJ](https://netlab.eco.ufrj.br/post/misoginia-no-youtube-90-dos-canais-com-mapeados-em-2024-seguem-dispon%C3%ADveis-na-plataforma)
 
----
+* [Ministério das Mulheres — pesquisa sobre misoginia digital](https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2024/dezembro/pesquisa-inedita-mostra-como-influenciadores-lucram-com-conteudos-misoginos-no-youtube)
+
+* [MINA-BR — Base sobre misoginia online](https://redu.unicamp.br/dataset.xhtml?persistentId=doi:10.25824/redu/MQD68Z)
+
 
 ## Visualização do projeto
 
 GitHub Pages:
 
-```text
 [adicione aqui o link do seu GitHub Pages]
-```
+
 
 Dashboard Power BI:
 
-```text
 [adicione aqui o link do Power BI]
-```
+
 
 ## Autora
 
-**Karine Araujo dos Santos**
+Karine Araujo dos Santos
+
 Projeto Integrador — Ciência da Computação
 UniCEUB
 
