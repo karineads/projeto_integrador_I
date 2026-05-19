@@ -1,37 +1,170 @@
-# **Projeto Integrador I**
+# Violência contra Mulheres no Brasil
+
+#### Projeto Integrador — Ciência da Computação
+#### Feminicídio, violência de gênero, conservadorismo e misoginia digital
+
+--- 
+## Sobre o projeto
+
+Este projeto tem como objetivo analisar a evolução da violência contra mulheres no Brasil a partir de dados públicos sobre:
+
+* homicídios de mulheres;
+* feminicídios;
+* violência doméstica;
+* denúncias registradas;
+* machismo estrutural;
+* conservadorismo social;
+* misoginia digital e discursos de ódio nas redes sociais.
+
+A pesquisa busca compreender como fatores sociais, culturais, políticos e digitais aparecem no mesmo contexto histórico do crescimento e permanência da violência de gênero no Brasil.
+
+O projeto não pretende afirmar relações simplificadas de causalidade, mas investigar como elementos como fragilidade institucional, discursos conservadores sobre papéis femininos e a expansão da misoginia digital podem contribuir para a normalização da violência contra mulheres.
+
+## Objetivos
+
+* Analisar a evolução histórica dos homicídios de mulheres no Brasil;
+* Comparar homicídios femininos e feminicídios registrados;
+* Visualizar indicadores de violência doméstica e denúncias;
+* Investigar a relação entre conservadorismo, misoginia digital e violência de gênero;
+* Construir dashboards interativos para interpretação dos dados;
+* Desenvolver um site informativo com visualização de dados e contexto social.
 
 
-## Tema Escolhido:
+## Tecnologias utilizadas
 
-Análise e Visualização de Dados sobre Violência Contra Mulheres no Brasil e Desenvolvimento de Aplicação de Apoio a Redes de Proteção
+* Python
+* Pandas
+* Power BI
+* HTML5
+* CSS3
+* GitHub Pages
 
-### Descrição Inicial do Projeto
+## Metodologia
 
-Este projeto tem como objetivo analisar dados relacionados à violência contra mulheres no Brasil, incluindo feminicídio, violência doméstica, estupro e outras formas de agressão motivadas por misoginia e desigualdade de gênero. A proposta é realizar uma análise baseada em dados públicos confiáveis para compreender melhor os padrões, a evolução desses crimes e suas possíveis correlações com fatores sociais e regionais.
+Os dados utilizados no projeto foram coletados a partir de bases públicas,
+tratados e organizados com Python e Pandas para posterior integração ao
+Power BI.
 
-O projeto busca transformar esses dados em informações claras e acessíveis por meio de visualizações, dashboards e mapas interativos. Dessa forma, será possível observar tendências, identificar regiões com maior incidência de violência e compreender características relevantes dos casos registrados, como o local da ocorrência (ambiente doméstico ou espaço público) e a relação entre vítima e agressor.
+O projeto utiliza visualização de dados para comparar séries históricas,
+identificar padrões e relacionar indicadores sociais e criminais em um
+dashboard interativo disponibilizado via GitHub Pages.
 
-### Coleta de Dados
+## Dashboard interativo
 
-A coleta de dados será realizada a partir de bases públicas e confiáveis disponibilizadas por instituições brasileiras reconhecidas na produção de estatísticas sobre segurança pública e violência de gênero. Entre as principais fontes estão o Fórum Brasileiro de Segurança Pública, responsável pelo Anuário Brasileiro de Segurança Pública, além de dados complementares de instituições como o IBGE e o IPEA.
+O dashboard reúne indicadores históricos relacionados à violência contra mulheres, incluindo:
 
-Esses dados serão obtidos em formatos estruturados, como CSV ou Excel, permitindo sua manipulação e análise por meio da linguagem Python. Durante essa etapa, os dados passarão por processos de limpeza, organização e padronização para possibilitar análises estatísticas e a integração entre diferentes bases de informação.
+* homicídios de mulheres;
+* feminicídios;
+* violência doméstica;
+* denúncias;
+* indicadores de machismo;
+* conservadorismo;
+* misoginia digital.
 
-### Análise e Visualização dos Dados
+O painel foi desenvolvido no Power BI e incorporado ao GitHub Pages.
 
-Após a etapa de tratamento dos dados, serão realizadas análises com o objetivo de identificar padrões e relações relevantes. Entre as possíveis análises estão a distribuição geográfica da violência contra mulheres, a evolução temporal dos casos e a correlação entre diferentes tipos de violência.
+## Contexto da pesquisa
 
-Os resultados dessas análises serão apresentados por meio de dashboards e mapas interativos, que permitirão visualizar de forma clara as regiões com maior incidência de violência, facilitando a interpretação das informações e a identificação de áreas que necessitam de maior atenção.
+A violência contra mulheres no Brasil não pode ser analisada apenas como uma sequência de números. Os dados refletem desigualdades históricas, machismo estrutural, subnotificação, falhas institucionais e disputas políticas relacionadas às políticas públicas de proteção às mulheres.
 
-### Aplicação Prática do Projeto
+A pesquisa também discute:
 
-Como etapa final, pretende-se desenvolver uma solução tecnológica voltada ao apoio de mulheres em situação de vulnerabilidade. A proposta é criar um aplicativo capaz de localizar organizações não governamentais, abrigos e instituições de apoio disponíveis em diferentes regiões.
+* redução e fragilização de políticas públicas voltadas às mulheres;
+* crescimento da misoginia digital;
+* monetização de conteúdos misóginos nas redes sociais;
+* banalização da violência online;
+* limites institucionais da proteção às vítimas;
+* relação entre conservadorismo e papéis rígidos de gênero.
 
-Esse aplicativo poderá funcionar como uma ferramenta de acesso à rede de proteção, permitindo que mulheres encontrem rapidamente serviços de apoio próximos, além de facilitar a conexão com instituições que oferecem assistência jurídica, psicológica e social.
+## Hipótese da pesquisa
 
-### Objetivo do Projeto
+Esta pesquisa parte da hipótese de que a permanência da violência contra mulheres no Brasil não pode ser explicada apenas por fatores individuais ou criminais.
 
-O objetivo geral deste projeto é utilizar análise de dados e tecnologia para contribuir com a compreensão da violência contra mulheres no Brasil e, ao mesmo tempo, propor uma solução tecnológica que facilite o acesso a redes de apoio e proteção.
+O estudo considera que:
 
+* desigualdade de gênero;
+* machismo estrutural;
+* fragilidade institucional;
+* discursos conservadores;
+* misoginia digital;
+* banalização da violência contra mulheres nas redes sociais.
+
+ajudam a compor o contexto social em que diferentes formas de violência continuam ocorrendo.
+
+
+## Principais temas abordados
+
+### Feminicídio e violência letal
+
+Análise histórica dos homicídios de mulheres e feminicídios registrados no Brasil.
+
+### Violência doméstica
+
+Dados sobre violência doméstica, denúncias e subnotificação.
+
+### Conservadorismo
+
+Indicadores sociais relacionados ao conservadorismo e aos debates sobre papéis tradicionais de gênero.
+
+### Misoginia digital
+
+Análise da circulação de discursos misóginos em plataformas digitais, machosfera e monetização do ódio contra mulheres.
+
+### Denúncia e proteção institucional
+
+Discussão sobre os limites entre denúncia, acolhimento, investigação e proteção efetiva das vítimas.
+
+
+## Fontes utilizadas
+
+### Segurança pública e violência
+
+* Fórum Brasileiro de Segurança Pública (FBSP)
+* Atlas da Violência — Ipea
+* DataSUS / SIM / TabNet
+* DataSenado
+* Ministério das Mulheres
+* SINAN
+
+### Conservadorismo e contexto social
+
+* Ipsos/Ipec
+* AtlasIntel
+* Opera Mundi
+* Unicamp
+* IESP/UERJ
+
+### Misoginia digital
+
+* NetLab-UFRJ
+* Ministério das Mulheres
+* MINA-BR
+* CNJ
+
+---
+
+## Visualização do projeto
+
+GitHub Pages:
+
+```text
+[adicione aqui o link do seu GitHub Pages]
+```
+
+Dashboard Power BI:
+
+```text
+[adicione aqui o link do Power BI]
+```
+
+## Autora
+
+**Karine Araujo dos Santos**
+Projeto Integrador — Ciência da Computação
+UniCEUB
+
+## Observação
+
+Este projeto utiliza exclusivamente dados públicos e possui finalidade acadêmica e educacional.
 
 
