@@ -182,11 +182,11 @@ CARDS
 POWER BI
 ========================= */
 
-.powerbi-box{
-    margin-top:35px;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 6px 25px rgba(0,0,0,0.08);
+.powerbi-box {
+    margin-top: 40px;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
 }
 
 /* =========================
