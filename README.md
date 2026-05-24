@@ -166,14 +166,9 @@ Discussão sobre os limites entre denúncia, acolhimento, investigação e prote
 
 ## Visualização do projeto
 
-GitHub Pages:
+[GitHub Pages](https://karineads.github.io/projeto_integrador_I/)
 
-[adicione aqui o link do seu GitHub Pages]
-
-
-Dashboard Power BI:
-
-[adicione aqui o link do Power BI]
+[Dashboard Power BI](https://app.powerbi.com/reportEmbed?reportId=ee7acaa0-e72c-4576-82d9-bfd257d4d264&autoAuth=true&ctid=dfb66dc4-3f3c-492c-991d-727dbd1c89d4&filterPaneEnabled=false&navContentPaneEnabled=true)
 
 
 ## Autora
