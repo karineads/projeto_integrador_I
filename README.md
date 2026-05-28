@@ -17,14 +17,6 @@ Este projeto tem como objetivo analisar a evolução da violência contra mulher
 
 O projeto não pretende afirmar relações simplificadas de causalidade, mas investigar como elementos como fragilidade institucional, discursos conservadores sobre papéis femininos e a expansão da misoginia digital podem contribuir para a normalização da violência contra mulheres.
 
-## Hipótese da pesquisa 
-
-Esta pesquisa parte da hipótese de que a permanência da violência contra mulheres no Brasil não pode ser explicada apenas por fatores individuais ou criminais. 
-
-O estudo considera que: desigualdade de gênero, machismo estrutural, fragilidade institucional, discursos conservadores, misoginia digital, banalização da violência contra mulheres nas redes sociais.
-
-Esses elementos ajudam a compor o contexto social em que diferentes formas de violência contra mulheres continuam ocorrendo.
-
 ## Metodologia
 
 Os dados utilizados no projeto foram coletados a partir de bases públicas,
