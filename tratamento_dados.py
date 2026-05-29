@@ -234,138 +234,6 @@ homicidios_comparacao = preparar_homicidios_comparacao()
 
 indicadores_sociais = pd.DataFrame([
 
-
-    # VIOLÊNCIA DOMÉSTICA / PERCEPÇÃO
-    {
-        "Ano": 2005,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 17,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-    {
-        "Ano": 2007,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 15,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-    {
-        "Ano": 2009,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 19,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-    {
-        "Ano": 2011,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 19,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-    {
-        "Ano": 2013,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 19,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2015,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 18,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2017,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 29,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2019,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 27,
-        "Unidade": "%",
-        "Fonte": "PNS/DataSenado"
-    },
-    {
-        "Ano": 2021,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 27,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2023,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 30,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2025,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam ter sofrido violência doméstica",
-        "Valor": 27,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    # MACHISMO / PERCEPÇÃO SOCIAL
-    {
-        "Ano": 2025,
-        "Categoria": "Machismo",
-        "Indicador": "Mulheres que consideram o Brasil um país machista",
-        "Valor": 94,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-    {
-        "Ano": 2025,
-        "Categoria": "Machismo",
-        "Indicador": "Mulheres que consideram o Brasil muito machista",
-        "Valor": 70,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2025,
-        "Categoria": "Machismo",
-        "Indicador": "Mulheres que dizem que mulheres não são tratadas com respeito",
-        "Valor": 46,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2025,
-        "Categoria": "Machismo",
-        "Indicador": "Mulheres que conhecem vítima de violência doméstica",
-        "Valor": 67,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
     # CONSERVADORISMO
         {
         "Ano": 2010,
@@ -517,6 +385,84 @@ indicadores_sociais = pd.DataFrame([
 
 indicadores_sociais["Decada"] = indicadores_sociais["Ano"].apply(definir_decada)
 
+# =====================================================
+# RASEAM 2026 - INDICADORES OFICIAIS
+# =====================================================
+
+raseam_2026 = pd.DataFrame([
+
+    # NASCIDOS VIVOS DE MÃES COM ATÉ 14 ANOS - SINASC
+    {"Ano": 2014, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 28245, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2015, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 26701, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2016, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 24139, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2017, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 22146, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2018, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 21172, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2019, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 19333, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2020, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 17579, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2021, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 17458, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2022, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 14293, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2023, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 13941, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+    {"Ano": 2024, "Categoria": "Gravidez infantil", "Indicador": "Nascidos vivos de mães com até 14 anos", "Valor": 11977, "Unidade": "nascidos vivos", "Fonte": "RASEAM 2026 / Sinasc"},
+
+    # VIOLÊNCIAS DOMÉSTICA, SEXUAL E OUTRAS - SINAN
+    {"Ano": 2012, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 88668, "Unidade": "notificações", "Fonte": "RASEAM 2013 / SINAN"},
+    {"Ano": 2013, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 123476, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2014, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 122222, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2015, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 131176, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2016, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 144086, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2017, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 171316, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2018, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 190642, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2019, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 198415, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2020, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 165193, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2021, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 187204, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2022, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 216024, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2023, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 292852, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
+    {"Ano": 2024, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 305961, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
+    {"Ano": 2025, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 330782, "Unidade": "notificações", "Fonte": "Ministério da Saúde / SINAN"},
+
+    # ESTUPRO E ESTUPRO DE VULNERÁVEL - MJSP
+
+    {"Ano": 2015, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 42575, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2016, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 48897, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2017, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 53890, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2018, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 61814, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2019, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 66673, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2020, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 58098, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2021, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 63406, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2022, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 70870, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2023, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 77251, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2024, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 76976, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2025, "Categoria": "Violência sexual", "Indicador": "Ocorrências de estupro de mulheres", "Valor": 71652, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+
+    {"Ano": 2015, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 26438, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2016, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 27555, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2017, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 24255, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2018, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 27778, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2019, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 28924, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2020, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 22372, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2021, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 24433, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2022, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 24637, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2023, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 25986, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2024, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 26295, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2025, "Categoria": "Violência sexual", "Indicador": "Mulheres vítimas de estupro", "Valor": 21742, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+
+    {"Ano": 2015, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 16137, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2016, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 21342, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2017, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 29635, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2018, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 34036, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2019, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 37749, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2020, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 35726, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2021, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 38973, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2022, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 46233, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2023, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 51265, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2024, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 50681, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2025, "Categoria": "Violência sexual", "Indicador": "Meninas e mulheres vítimas de estupro de vulnerável", "Valor": 49910, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+
+    {"Ano": 2024, "Categoria": "Feminicídio", "Indicador": "Mulheres foram vítimas de feminicídio, homicídio doloso e lesão corporal seguida de morte", "Valor": 44761, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+    {"Ano": 2025, "Categoria": "Feminicídio", "Indicador": "Tentativa de feminicídio ou homicídio de mulheres", "Valor": 89334, "Unidade": "vítimas", "Fonte": "RASEAM 2026 / MJSP"},
+
+])
+
 # EXPORTAR
 
 base_tratada.to_csv(
@@ -551,9 +497,18 @@ homicidios_comparacao.to_csv(
     decimal=","
 )
 
+raseam_2026.to_csv(
+    os.path.join(PASTA_SAIDA, "raseam_2026_indicadores_violencia.csv"),
+    index=False,
+    encoding="utf-8-sig",
+    sep=";",
+    decimal=","
+)
+
 print("\nPROCESSAMENTO FINALIZADO COM SUCESSO!")
 print("Arquivos criados em:", PASTA_SAIDA)
 print("- base_feminicidio_tratada.csv")
 print("- tabela_ano_powerbi.csv")
 print("- indicadores_sociais.csv")
 print("- homicidios_gerais_x_mulheres.csv")
+print("- raseam_2026_indicadores_violencia.csv")
