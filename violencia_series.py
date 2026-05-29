@@ -19,81 +19,6 @@ def salvar_csv(df, nome_arquivo):
 
 violencia_series = pd.DataFrame([
 
-    # VIOLÊNCIA DOMÉSTICA DECLARADA
-
-    {
-        "Ano": 2005,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Brasileiras que conheciam mulheres vítimas de violência doméstica",
-        "Valor": 51,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2011,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Brasileiras que conheciam mulheres vítimas de violência doméstica",
-        "Valor": 56,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2013,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam já ter sofrido violência doméstica",
-        "Valor": 27,
-        "Unidade": "%",
-        "Fonte": "PNS/DataSenado"
-    },
-
-    {
-        "Ano": 2015,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam já ter sofrido violência doméstica",
-        "Valor": 18,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2017,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam já ter sofrido violência doméstica",
-        "Valor": 29,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2019,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam já ter sofrido violência doméstica",
-        "Valor": 29,
-        "Unidade": "%",
-        "Fonte": "PNS/DataSenado"
-    },
-
-    {
-        "Ano": 2023,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam já ter sofrido violência doméstica",
-        "Valor": 30,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-    {
-        "Ano": 2025,
-        "Categoria": "Violência doméstica",
-        "Indicador": "Mulheres que declararam já ter sofrido violência doméstica",
-        "Valor": 27,
-        "Unidade": "%",
-        "Fonte": "DataSenado"
-    },
-
-
 # DENÚNCIAS - LIGUE 180
 {
     "Ano": 2010,
@@ -131,7 +56,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2014,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 52957 ,
+    "Valor": 485105 ,
     "Unidade": "denúncias",
     "Fonte": "MMFDH"
 },
@@ -139,7 +64,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2015,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 76651,
+    "Valor": 749024,
     "Unidade": "denúncias",
     "Fonte": "MMFDH"
 },
@@ -147,7 +72,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2016,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 140350,
+    "Valor": 1133024,
     "Unidade": "denúncias",
     "Fonte": "MMFDH"
 },
@@ -155,7 +80,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2017,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 73668,
+    "Valor": 1170580,
     "Unidade": "denúncias",
     "Fonte": "MMFDH"
 },
@@ -163,7 +88,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2018,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 92663,
+    "Valor": 1185690,
     "Unidade": "denúncias",
     "Fonte": "MMFDH"
 },
@@ -171,7 +96,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2019,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 85412,  
+    "Valor": 1540529,  
     "Unidade": "denúncias",
     "Fonte": "MMFDH"
 },
@@ -179,7 +104,16 @@ violencia_series = pd.DataFrame([
     "Ano": 2020,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor":  105671, 
+    "Valor":  1312230, 
+    "Unidade": "denúncias",
+    "Fonte": "MMFDH"
+},
+
+{
+    "Ano": 2021,
+    "Categoria": "Denúncias",
+    "Indicador": "Denúncias registradas no Ligue 180",
+    "Valor": 1077090,
     "Unidade": "denúncias",
     "Fonte": "MMFDH"
 },
@@ -188,7 +122,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2022,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 87700,
+    "Valor": 761701,
     "Unidade": "denúncias",
     "Fonte": "MMFDH"
 },
@@ -197,7 +131,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2023,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 114626,
+    "Valor": 568608,
     "Unidade": "denúncias",
     "Fonte": "Ministério das Mulheres"
 },
@@ -206,7 +140,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2024,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 132084,
+    "Valor": 691455,
     "Unidade": "denúncias",
     "Fonte": "Ministério das Mulheres"
 },
@@ -215,7 +149,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2025,
     "Categoria": "Denúncias",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 155111,
+    "Valor": 864765,
     "Unidade": "denúncias",
     "Fonte": "Ministério das Mulheres"
 },
@@ -231,7 +165,7 @@ violencia_series = pd.DataFrame([
     "Ano": 2025,
     "Categoria": "Denúncias_totais",
     "Indicador": "Denúncias registradas no Ligue 180",
-    "Valor": 1549768,
+    "Valor": 16000000,
     "Unidade": "denúncias",
     "Fonte": "Ministério das Mulheres"
 }
