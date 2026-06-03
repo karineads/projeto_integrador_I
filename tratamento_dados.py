@@ -408,14 +408,14 @@ raseam_2026 = pd.DataFrame([
     {"Ano": 2012, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 88668, "Unidade": "notificações", "Fonte": "RASEAM 2013 / SINAN"},
     {"Ano": 2013, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 123476, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
     {"Ano": 2014, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 122222, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
-    {"Ano": 2015, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 131176, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
-    {"Ano": 2016, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 144086, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
-    {"Ano": 2017, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 171316, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
-    {"Ano": 2018, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 190642, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
-    {"Ano": 2019, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 198415, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
-    {"Ano": 2020, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 165193, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
-    {"Ano": 2021, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 187204, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
-    {"Ano": 2022, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 216024, "Unidade": "notificações", "Fonte": "RASEAM 2026 / SINAN"},
+    {"Ano": 2015, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 132909, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
+    {"Ano": 2016, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 145702, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
+    {"Ano": 2017, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 174119, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
+    {"Ano": 2018, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 191136, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
+    {"Ano": 2019, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 199429, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
+    {"Ano": 2020, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 165917, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
+    {"Ano": 2021, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 187413, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
+    {"Ano": 2022, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 219718, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
     {"Ano": 2023, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 292852, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
     {"Ano": 2024, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 305961, "Unidade": "notificações", "Fonte": "Ministério da Saúde  / SINAN"},
     {"Ano": 2025, "Categoria": "Violência registrada", "Indicador": "Notificações de violências doméstica, sexual e outras contra mulheres", "Valor": 330782, "Unidade": "notificações", "Fonte": "Ministério da Saúde / SINAN"},
@@ -463,6 +463,248 @@ raseam_2026 = pd.DataFrame([
 
 ])
 
+# =====================================================
+# PERFIL DA VIOLÊNCIA E PROTEÇÃO INSTITUCIONAL
+# RASEAM 2026 / SINAN / IBGE MUNIC
+# =====================================================
+
+perfil_violencia = pd.DataFrame([
+
+    # =========================
+    # LOCAL DE OCORRÊNCIA
+    # =========================
+    {
+        "Ano": 2025,
+        "Categoria": "Local de ocorrência",
+        "Indicador": "Residência",
+        "Valor": 72.2,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Local de ocorrência",
+        "Indicador": "Via pública",
+        "Valor": 13.4,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Local de ocorrência",
+        "Indicador": "Outros locais",
+        "Valor": 7.0,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Local de ocorrência",
+        "Indicador": "Bar ou similar",
+        "Valor": 2.2,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Local de ocorrência",
+        "Indicador": "Comércio ou serviços",
+        "Valor": 2.1,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Local de ocorrência",
+        "Indicador": "Escola",
+        "Valor": 2.0,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+
+    # =========================
+    # AUTORIA DA VIOLÊNCIA
+    # =========================
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Parceiro íntimo",
+        "Valor": 38.2,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Cônjuge",
+        "Valor": 20.8,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Amigos/conhecidos",
+        "Valor": 12.3,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Desconhecido(a)",
+        "Valor": 9.6,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Ex-cônjuge",
+        "Valor": 9.5,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Mãe",
+        "Valor": 9.4,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Pai",
+        "Valor": 7.9,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Namorado(a)",
+        "Valor": 5.0,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Filho(a)",
+        "Valor": 4.2,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+    {
+        "Ano": 2025,
+        "Categoria": "Autoria da violência",
+        "Indicador": "Irmão(ã)",
+        "Valor": 3.2,
+        "Unidade": "%",
+        "Fonte": "RASEAM 2026 / SINAN"
+    },
+
+    # =========================
+    # PROTEÇÃO INSTITUCIONAL
+    # =========================
+    {
+        "Ano": 2018,
+        "Categoria": "Proteção institucional",
+        "Indicador": "Municípios sem nenhum instrumento de proteção",
+        "Valor": 70,
+        "Unidade": "%",
+        "Fonte": "IBGE MUNIC 2018"
+    },
+    {
+        "Ano": 2018,
+        "Categoria": "Proteção institucional",
+        "Indicador": "Municípios sem nenhum instrumento de justiça",
+        "Valor": 90,
+        "Unidade": "%",
+        "Fonte": "IBGE MUNIC 2018"
+    },
+    {
+        "Ano": 2018,
+        "Categoria": "Proteção institucional",
+        "Indicador": "Municípios com Conselho Municipal de Direitos da Mulher",
+        "Valor": 23.58,
+        "Unidade": "%",
+        "Fonte": "IBGE MUNIC 2018"
+    },
+    {
+        "Ano": 2018,
+        "Categoria": "Proteção institucional",
+        "Indicador": "Municípios com Centro Especializado de Atendimento à Mulher",
+        "Valor": 6.91,
+        "Unidade": "%",
+        "Fonte": "IBGE MUNIC 2018"
+    },
+    {
+        "Ano": 2018,
+        "Categoria": "Proteção institucional",
+        "Indicador": "Municípios com Casas-Abrigo",
+        "Valor": 2.41,
+        "Unidade": "%",
+        "Fonte": "IBGE MUNIC 2018"
+    },
+    {
+        "Ano": 2018,
+        "Categoria": "Proteção institucional",
+        "Indicador": "Municípios com Delegacia Especializada de Atendimento às Mulheres",
+        "Valor": 8.26,
+        "Unidade": "%",
+        "Fonte": "IBGE MUNIC 2018"
+    }
+])
+# =====================================================
+# REPRESENTAÇÃO FEMININA NOS ESPAÇOS DE PODER
+# =====================================================
+
+representacao_poder = pd.DataFrame([
+    {
+        "Ano": 2026,
+        "Poder": "Legislativo",
+        "Indicador": "Mulheres na Câmara dos Deputados",
+        "Valor": 18.0,
+        "Unidade": "%",
+        "Quantidade_Mulheres": 91,
+        "Total_Cadeiras": 513,
+        "Fonte": "Câmara dos Deputados / Agência Câmara"
+    },
+    {
+        "Ano": 2026,
+        "Poder": "Legislativo",
+        "Indicador": "Mulheres no Senado Federal",
+        "Valor": 19.7,
+        "Unidade": "%",
+        "Quantidade_Mulheres": 16,
+        "Total_Cadeiras": 81,
+        "Fonte": "Senado Federal"
+    },
+    {
+        "Ano": 2026,
+        "Poder": "Executivo",
+        "Indicador": "Mulheres governadoras",
+        "Valor": 7.4,
+        "Unidade": "%",
+        "Quantidade_Mulheres": 2,
+        "Total_Cadeiras": 27,
+        "Fonte": "Levantamento contextual"
+    },
+    {
+        "Ano": 2026,
+        "Poder": "Judiciário",
+        "Indicador": "Mulheres no STF",
+        "Valor": 9.1,
+        "Unidade": "%",
+        "Quantidade_Mulheres": 1,
+        "Total_Cadeiras": 11,
+        "Fonte": "STF"
+    }
+])
+
 # EXPORTAR
 
 base_tratada.to_csv(
@@ -504,7 +746,20 @@ raseam_2026.to_csv(
     sep=";",
     decimal=","
 )
-
+perfil_violencia.to_csv(
+    os.path.join(PASTA_SAIDA, "perfil_violencia_protecao.csv"),
+    index=False,
+    encoding="utf-8-sig",
+    sep=";",
+    decimal=","
+)
+representacao_poder.to_csv(
+    os.path.join(PASTA_SAIDA, "representacao_feminina_poder.csv"),
+    index=False,
+    encoding="utf-8-sig",
+    sep=";",
+    decimal=","
+)
 print("\nPROCESSAMENTO FINALIZADO COM SUCESSO!")
 print("Arquivos criados em:", PASTA_SAIDA)
 print("- base_feminicidio_tratada.csv")
@@ -512,3 +767,5 @@ print("- tabela_ano_powerbi.csv")
 print("- indicadores_sociais.csv")
 print("- homicidios_gerais_x_mulheres.csv")
 print("- raseam_2026_indicadores_violencia.csv")
+print("- perfil_violencia_protecao.csv")
+print("- representacao_poder.csv")
