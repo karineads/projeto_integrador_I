@@ -1,31 +1,45 @@
 # Violência contra Mulheres no Brasil
 
 > Projeto Integrador — Ciência da Computação  
-> Feminicídio, violência de gênero, conservadorismo e misoginia digital
+> Feminicídio, violência de gênero, conservadorismo, representação política e misoginia digital
 
 ## Sobre o projeto
 
-Este projeto tem como objetivo analisar a evolução da violência contra mulheres no Brasil a partir de dados públicos sobre:
+Este projeto analisa a violência contra mulheres no Brasil a partir de uma perspectiva histórica, social, política e institucional.
+
+A pesquisa reúne dados públicos relacionados a diferentes formas de violência contra mulheres e busca compreender como fatores estruturais ajudam a compor o contexto em que essas violências continuam ocorrendo.
+
+Foram analisados indicadores sobre:
 
 * homicídios de mulheres;
-* feminicídios;
+* feminicídios registrados;
+* tentativas de feminicídio;
 * violência doméstica;
-* denúncias registradas;
-* machismo estrutural;
-* conservadorismo social;
-* misoginia digital e discursos de ódio nas redes sociais.
+* violência sexual;
+* estupro e estupro de vulnerável;
+* denúncias registradas no Ligue 180;
+* autoria da violência;
+* local de ocorrência da violência;
+* instrumentos de proteção e justiça nos municípios;
+* representação feminina nos espaços de poder;
+* conservadorismo;
+* misoginia digital.
 
-O projeto não pretende afirmar relações simplificadas de causalidade, mas investigar como elementos como fragilidade institucional, discursos conservadores sobre papéis femininos e a expansão da misoginia digital podem contribuir para a normalização da violência contra mulheres.
+A pesquisa entende a violência contra mulheres como um fenômeno multifatorial, influenciado por aspectos institucionais, culturais, econômicos, políticos e digitais que devem ser analisados de forma conjunta. 
 
-## Metodologia
+O objetivo não é estabelecer relações simplificadas de causa e efeito, mas compreender como esses apectos aparecem simultaneamente em um cenário de persistência da violência contra mulheres.
 
-Os dados utilizados no projeto foram coletados a partir de bases públicas,
-tratados e organizados com Python e Pandas para posterior integração ao
-Power BI.
 
-O projeto utiliza visualização de dados para comparar séries históricas,
-identificar padrões e relacionar indicadores sociais e criminais em um
-dashboard interativo disponibilizado via GitHub Pages.
+## Objetivos
+
+* Analisar a evolução histórica da violência contra mulheres no Brasil;
+* Comparar homicídios femininos, feminicídios e tentativas de feminicídio;
+* Investigar padrões de violência doméstica e sexual;
+* Identificar os principais locais e autores das agressões;
+* Avaliar a disponibilidade de instrumentos de proteção e justiça;
+* Discutir a representação feminina nos espaços de poder;
+* Relacionar indicadores de conservadorismo e misoginia digital ao contexto social analisado;
+* Desenvolver visualizações interativas para apoiar a interpretação dos dados
 
 ## Organização dos arquivos
 
@@ -33,36 +47,13 @@ dashboard interativo disponibilizado via GitHub Pages.
 
 Script principal responsável pelo tratamento, limpeza e integração das bases utilizadas no projeto.
 
-O arquivo realiza:
-
-* padronização dos dados;
-* tratamento de datas;
-* agrupamentos históricos;
-* integração entre homicídios, feminicídios e indicadores sociais;
-* criação das tabelas finais utilizadas no Power BI.
-
-Também é responsável pela geração automática dos arquivos presentes em `dados_tratados/`.
-
-
 ### violencia_series.py
 
-Script auxiliar utilizado para processamento e organização de séries históricas relacionadas à violência contra mulheres.
-
-Auxilia na preparação de indicadores históricos utilizados nas análises e visualizações do dashboard.
-
+Script auxiliar utilizado para organizar indicadores históricos complementares utilizados na análise.
 
 ### index.html
 
 Página principal do projeto publicada no GitHub Pages.
-
-Contém:
-
-* contextualização da pesquisa;
-* discussão social e histórica;
-* conceitos utilizados;
-* incorporação do dashboard Power BI;
-* interpretação dos dados;
-* referências utilizadas.
 
 ### style.css
 
@@ -74,88 +65,45 @@ Arquivo responsável pela estilização visual da página.
 
 Pasta que contém as bases originais utilizadas no projeto.
 
-#### Arquivos principais:
-
-#### feminicidio_serie_historica.csv
-
-Base histórica consolidada com registros de óbitos femininos por causas externas com potencial enquadramento como feminicídio.
-
-Utilizada para construção das séries históricas de homicídios femininos.
-
-
-#### Homicídios_países.csv
-
-Base contendo os homicídios gerais registrados no Brasil ao longo dos anos.
-
-Utilizada para comparação proporcional com os homicídios femininos.
-
-
-#### Homicídios Mulheres_países.csv
-
-Base contendo exclusivamente homicídios femininos registrados no país.
-
-Utilizada para:
-
-* cálculo proporcional;
-* comparação entre homicídios gerais e femininos;
-
-## Dados processados
-
 ### dados_tratados/
 
-Pasta com os arquivos gerados após o processamento em Python.
-
-#### base_feminicidio_tratada.csv
-
-Base detalhada tratada para análises exploratórias.
+Arquivos gerados após o processamento em Python.
 
 #### tabela_ano_powerbi.csv
 
-Tabela principal utilizada no Power BI.
+Contém indicadores históricos relacionados à violência contra mulheres.
 
 #### indicadores_sociais.csv
 
-Tabela complementar utilizada nos gráficos sociais do dashboard.
+Tabela complementar com indicadores institucionais, políticos, sociais e digitais.
+
+#### base_feminicidio_tratada.csv
+
+Base tratada utilizada para análises exploratórias e geração dos indicadores.
 
 #### homicidios_gerais_x_mulheres.csv
 
-Utilizada para demonstrar a proporção da violência letal contra mulheres em relação aos homicídios gerais no Brasil.
+Tabela utilizada para cálculo proporcional entre homicídios gerais e homicídios femininos.
 
 ## Dashboard interativo
 
 O dashboard reúne indicadores históricos relacionados à violência contra mulheres, incluindo:
 
-* homicídios de mulheres;
+* homicídios femininos;
 * feminicídios;
-* violência doméstica;
-* denúncias;
-* percepção do machismo;
-* indicadores de conservadorismo;
+* tentativas de feminicídio.
+* notificações de violência;
+* estupro;
+* denúncias do Ligue 180;
+* autoria da violência;
+* local da violência;
+* instrumentos de proteção;
+* instrumentos de justiça;
+* representação feminina nos espaços de poder;
+* conservadorismo;
 * misoginia digital.
 
 O painel foi desenvolvido no Power BI e incorporado ao GitHub Pages.
-
-## Principais temas abordados
-
-#### Feminicídio, violência letal e subnotificação
-
-Análise histórica dos homicídios de mulheres e feminicídios registrados no Brasil.
-
-#### Violência doméstica
-
-Dados sobre violência doméstica, denúncias e subnotificação.
-
-#### Conservadorismo
-
-Indicadores sociais relacionados ao conservadorismo, papéis tradicionais de gênero e discursos que reforçam desigualdades estruturais entre homens e mulheres.
-
-#### Misoginia digital
-
-Análise da circulação de discursos misóginos em plataformas digitais, machosfera e monetização do ódio contra mulheres.
-
-#### Denúncia e proteção institucional
-
-Discussão sobre os limites entre denúncia, acolhimento, investigação e proteção efetiva das vítimas.
 
 ## Tecnologias utilizadas
 
@@ -168,26 +116,27 @@ Discussão sobre os limites entre denúncia, acolhimento, investigação e prote
   
 ## Limitações da pesquisa
 
-Esta pesquisa utiliza exclusivamente dados públicos e séries históricas produzidas por diferentes instituições. Dessa forma, os dados podem apresentar:
+Esta pesquisa utiliza exclusivamente bases públicas.
 
-*diferenças metodológicas entre bases;
-*subnotificação;
-*alterações nos critérios de registro ao longo do tempo;
-*limitações institucionais na classificação de feminicídios;
-*lacunas temporais em determinados indicadores sociais.
+Os dados podem apresentar:
+
+* subnotificação;
+* diferenças metodológicas entre instituições;
+* alterações nos critérios de registro ao longo do tempo;
+* limitações na classificação de feminicídios;
+* revisões posteriores dos dados oficiais.
+
+Por esse motivo, os indicadores devem ser interpretados como instrumentos de análise e não como representação absoluta da realidade.
 
 ## Bases de dados utilizadas
 
 ### Base principal
 
 * [Kaggle — Feminicídio no Brasil](https://www.kaggle.com/datasets/rafatrindade/feminicidio-br)
-  
-  Base consolidada com os registros finais e validados de óbitos femininos por causas externas, com potencial enquadramento como feminicídio
 
 ### Feminicídios registrados
 
 * [Fórum Brasileiro de Segurança Pública (FBSP)](https://dossies.agenciapatriciagalvao.org.br/dados-e-fontes/pesquisa/retrato-dos-feminicidios-no-brasil-fbsp-2026/)
-
 
 ### Violência doméstica e denúncias
 
@@ -195,7 +144,7 @@ Esta pesquisa utiliza exclusivamente dados públicos e séries históricas produ
   
 * [Ligue 180 — Ministério das Mulheres](https://www.gov.br/mulheres/pt-br/ligue180/balancos)
 
-* [RASEAM 2025 — Relatório Anual Socioeconômico da Mulher](https://www.gov.br/mulheres/pt-br/central-de-conteudos/publicacoes/raseam-2025.pdf)
+* [RASEAM — Relatório Anual Socioeconômico da Mulher](https://www.gov.br/mulheres/pt-br/observatorio-brasil-da-igualdade-de-genero/raseam)
 
 
 ### Segurança pública e violência
@@ -224,13 +173,21 @@ Esta pesquisa utiliza exclusivamente dados públicos e séries históricas produ
 
 * [MINA-BR — Base sobre misoginia online](https://redu.unicamp.br/dataset.xhtml?persistentId=doi:10.25824/redu/MQD68Z)
 
+### Representação feminina nos espaços de poder
+
+Dados compilados a partir de informações divulgadas por:
+
+* Câmara dos Deputados;
+* Senado Federal;
+* Supremo Tribunal Federal (STF);
+* Ministério da Gestão e da Inovação em Serviços Públicos.
+
 
 ## Visualização do projeto
 
 [GitHub Pages](https://karineads.github.io/projeto_integrador_I/)
 
 [Dashboard Power BI](https://app.powerbi.com/reportEmbed?reportId=ee7acaa0-e72c-4576-82d9-bfd257d4d264&autoAuth=true&ctid=dfb66dc4-3f3c-492c-991d-727dbd1c89d4&filterPaneEnabled=false&navContentPaneEnabled=true)
-
 
 ## Autora
 
@@ -239,8 +196,6 @@ Karine Araujo dos Santos
 Projeto Integrador — Ciência da Computação
 UniCEUB
 
-## Observação
+### Observação
 
 Este projeto utiliza exclusivamente dados públicos e possui finalidade acadêmica e educacional.
-
-
