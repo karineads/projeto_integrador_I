@@ -284,11 +284,6 @@ CONCEITOS
     transition: 0.3s;
 }
 
-.concept-grid article:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
-}
-
 .concept-grid article span {
     display: block;
     font-size: 13px;
