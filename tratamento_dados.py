@@ -689,7 +689,7 @@ representacao_poder = pd.DataFrame([
         "Indicador": "Mulheres governadoras",
         "Valor": 7.4,
         "Unidade": "%",
-        "Quantidade_Mulheres": 2,
+        "Quantidade_Mulheres": 5,
         "Total_Cadeiras": 27,
         "Fonte": "Levantamento contextual"
     },
