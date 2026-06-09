@@ -267,10 +267,12 @@ CONCEITOS
     margin-bottom: 10px;
 }
 
-.concept-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.concept-grid article {
+    background: #fffefe;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(58, 34, 82, 0.08);
+    border-left: 6px solid #5B2C83;
 }
 
 .concept-grid article {
