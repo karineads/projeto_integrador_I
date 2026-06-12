@@ -550,68 +550,33 @@ nav.scrolled {
   text-decoration: underline;
 }
 
-/* ====================== SEÇÃO DENUNCIA ====================== */
-.denuncia-box {
-  background: var(--gradiente-hero);
-  border-radius: 24px;
-  padding: 48px 40px;
+.dashboard-links {
+  margin: 25px 0;
+}
+
+.dashboard-links a {
+  display: inline-block;
+  background: linear-gradient(90deg, #7a3fa0, #d86b9f);
   color: white;
-  position: relative;
-  overflow: hidden;
-  margin-top: 20px;
-}
-
-.denuncia-box::before {
-  content: '';
-  position: absolute;
-  top: -80px; right: -80px;
-  width: 300px; height: 300px;
-  background: radial-gradient(circle, rgba(180, 80, 200, 0.2), transparent 70%);
-  pointer-events: none;
-}
-
-.denuncia-box h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 26px;
-  margin-bottom: 14px;
-  position: relative;
-  z-index: 1;
-}
-
-.denuncia-box p {
-  color: rgba(255,255,255,0.82);
-  font-size: 15px;
-  text-align: left;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 16px;
-}
-
-.denuncia-num {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.22);
-  backdrop-filter: blur(8px);
-  border-radius: 14px;
-  padding: 16px 28px;
-  margin-top: 10px;
-  position: relative;
-  z-index: 1;
-}
-
-.denuncia-num strong {
-  font-family: 'Playfair Display', serif;
-  font-size: 34px;
-  color: #e8b4f0;
-}
-
-.denuncia-num span {
+  padding: 14px 24px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
   font-size: 13px;
-  color: rgba(255,255,255,0.75);
-  line-height: 1.4;
+  box-shadow: 0 6px 20px rgba(91, 44, 131, 0.18);
 }
+
+.dashboard-links a:hover {
+  opacity: 0.9;
+}
+
+.dashboard-preview {
+  margin-top: 25px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 35px rgba(91, 44, 131, 0.18);
+}
+
 
 /* ====================== CONCLUSÃO ====================== */
 .section.final {
