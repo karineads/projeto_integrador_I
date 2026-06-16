@@ -188,6 +188,8 @@ Dados compilados a partir de informações divulgadas por:
 [GitHub Pages](https://karineads.github.io/projeto_integrador_I/)
 
 [Dashboard Power BI](https://app.powerbi.com/reportEmbed?reportId=ee7acaa0-e72c-4576-82d9-bfd257d4d264&autoAuth=true&ctid=dfb66dc4-3f3c-492c-991d-727dbd1c89d4&filterPaneEnabled=false&navContentPaneEnabled=true)
+> O dashboard foi desenvolvido no Power BI para organizar os principais indicadores da pesquisa.  Por restrições de compartilhamento da plataforma institucional, a visualização online pode exigir
+  login autorizado.
 
 ## Autora
 
