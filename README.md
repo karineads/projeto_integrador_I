@@ -27,7 +27,7 @@ Foram analisados indicadores sobre:
 
 A pesquisa entende a violência contra mulheres como um fenômeno multifatorial, influenciado por aspectos institucionais, culturais, econômicos, políticos e digitais que devem ser analisados de forma conjunta. 
 
-O objetivo não é estabelecer relações simplificadas de causa e efeito, mas compreender como esses apectos aparecem simultaneamente em um cenário de persistência da violência contra mulheres.
+O objetivo não é estabelecer relações simplificadas de causa e efeito, mas compreender como esses aspectos aparecem simultaneamente em um cenário de persistência da violência contra mulheres.
 
 
 ## Objetivos
